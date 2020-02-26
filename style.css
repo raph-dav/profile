@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap');
+
+body {
+  background-color: #f3d4d4;
+  font-family: 'Source Sans Pro';
+  font-size: 12px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+}
+
+
+.card{
+  padding: 30px;
+  background: white;
+  box-shadow: 1px 1px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 16px auto;
+  width: 600px;
+  border-radius: 4px;
+}
+
+
+
+.img-circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-top{
+
+  margin: 30px;
+}
+
+
+.header-cv {
+  text-align: left;
+  height: 50px;
+}
+
+.header-text {
+  font-size: 14px;
+}
+
+.text-cv{
+  text-align: left;
+
+}
+
+.img-cv {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.flexbox{
+  display: flex;
+  align-items: center;
+}
+
+.list-cv {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: left;
+}
+
+.submit-button{
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 3px;
+}
+
+.submit-button{
+   display:inline-block;
+   padding:0.35em 1.2em;
+   border:0.1em solid #FFFFFF;
+   margin:0 0.3em 0.3em 0;
+   border-radius:0.12em;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family:'Roboto',sans-serif;
+   font-weight:300;
+   color:#FFFFFF;
+   text-align:center;
+   font-size: 20px;
+   text-align: center;
+   transition: all 0.2s;
+   width: 200px;
+   height: 30px;
+}
+
+.submit-button:hover{
+ color:#000000;
+ background-color:#FFFFFF;
+}
+
+
+.social-icons {
+  opacity: 0.8;
+  font-size: 50px;
+  margin-right: 30px;
+
+}
+
+.social-icons:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
